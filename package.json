@@ -1,6 +1,6 @@
 {
   "name": "tv4-basic-formats",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Common JSON Schema string format constraints in the form of tv4 validator callbacks",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanisaurioRex/tv4-basic-formats.git"
+    "url": "git://github.com/DanisaurioRex/tv4-basic-formats.git"
   },
   "keywords": [
     "json",

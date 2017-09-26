@@ -1,0 +1,16 @@
+{
+    "name": "tv4-basic-formats",
+    "version": "1.0.3",
+    "main": "index.js",
+    "ignore": [
+        "**/.*",
+        "Gruntfile.js",
+        "package.json",
+        "node_modules",
+        "test/"
+    ],
+    "dependencies": {
+        "moment": "^2.10.6",
+        "validator": "^8.2.0"
+    }
+}
