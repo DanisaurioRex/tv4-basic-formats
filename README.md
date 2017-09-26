@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ikr/tv4-formats.svg?branch=master)](https://travis-ci.org/ikr/tv4-formats)
+[![Build Status](https://travis-ci.org/DanisaurioRex/tv4-basic-formats.svg?branch=master)](https://travis-ci.org/DanisaurioRex/tv4-basic-formats)
 
 # About
 
@@ -12,13 +12,13 @@ Thus, it's a plug-in for [tv4.](https://github.com/geraintluff/tv4)
 First, install it, together with tv4 itself, via Node.js'es [npm](https://www.npmjs.org/) into your
 project
 
-    $ npm install --save tv4 tv4-formats
+    $ npm install --save tv4 tv4-basic-formats
 
 Then, in the code
 
 ```javascript
 var tv4 = require('tv4'),
-    formats = require('tv4-formats'),
+    formats = require('tv4-basic-formats'),
     assert = require('assert'),
     validator = tv4.freshApi(),
     schema = {type: 'string', format: 'date'};
@@ -29,7 +29,7 @@ assert(!validator.validate('2014-02-29', schema)); // Invalid. Only 28 days in t
 assert(!validator.validate('11.02.2014', schema)); // Invalid. Wrong date format
 ```
 
-Here, the `format: 'date'` part of the schema validation is provided by `tv4-formats` package.
+Here, the `format: 'date'` part of the schema validation is provided by `tv4-basic-formats` package.
 
 # Supported formats
 
